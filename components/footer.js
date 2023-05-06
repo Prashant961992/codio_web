@@ -10,9 +10,9 @@ class Footer extends HTMLElement {
             <div class="row gy-4">
               <div class="col-lg-5 col-md-12 footer-info">
                 <a href="index.html" class="logo d-flex align-items-center">
-                  <span>codio</span>
+                  <span>CODIO</span>
                 </a>
-                <p>As a software development company, focus on delivering high-quality software that meets the needs of your customers. Emphasise the importance of effective communication, collaboration, and continuous improvement. Prioritise customer satisfaction and adapt to changing market demands to stay ahead of the competition.</p>
+                <p></p>
                 <div class="social-links d-flex  mt-3">
                   <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                   <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -20,18 +20,18 @@ class Footer extends HTMLElement {
                   <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
-    
+
               <div class="col-lg-2 col-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
                   <li><i class="bi bi-dash"></i> <a href="index.html">Home</a></li>
                   <li><i class="bi bi-dash"></i> <a href="about.html">About us</a></li>
                   <li><i class="bi bi-dash"></i> <a href="services.html">Services</a></li>
-                  <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
-                  <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+                  <li><i class="bi bi-dash"></i> <a href="portfolio.html">Portfolio</a></li>
+                  <li><i class="bi bi-dash"></i> <a href="contact.html">Contact</a></li>
                 </ul>
               </div>
-    
+
               <div class="col-lg-2 col-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
@@ -43,7 +43,7 @@ class Footer extends HTMLElement {
                   <li><i class="bi bi-dash"></i> <a href="#">React Development</a></li>
                 </ul>
               </div>
-    
+
               <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
                 <p>
@@ -57,7 +57,7 @@ class Footer extends HTMLElement {
             </div>
           </div>
         </div>
-        
+
         <div class="footer-legal">
           <div class="container">
             <div class="copyright">

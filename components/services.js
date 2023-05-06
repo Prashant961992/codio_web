@@ -18,8 +18,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">Website Development</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                  occaecati cupiditate non provident</p>
+                <p class="description">Our website development service specialises in designing and developing custom websites that are tailored to meet the unique needs of your business. We utilise the latest technologies and industry best practices to create modern, responsive websites that are user-friendly, visually appealing, and optimised for search engines.
+                </p>
               </div>
             </div>
             <!-- End Service Item -->
@@ -28,8 +28,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">E-Commerce Development</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat tarad limino ata</p>
+                <p class="description">We design and develop custom online stores that are optimised for conversions, user experience, and growth.
+                </p>
               </div>
             </div><!-- End Service Item -->
   
@@ -37,8 +37,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">IOS APP Development</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur</p>
+                <p class="description">We provide custom iOS app development services that leverage the latest technologies to create intuitive, user-friendly, and scalable applications for Apple's iOS platform.
+                </p>
               </div>
             </div><!-- End Service Item -->
   
@@ -46,8 +46,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">Android App Development</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum</p>
+                <p class="description">We have a team of top-notch developers specialised in professional Android application development having detailed knowledge of the SDK and API frameworks.
+                </p>
               </div>
             </div><!-- End Service Item -->
   
@@ -55,8 +55,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">API Integration</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque</p>
+                <p class="description">We provide API integration services to connect different software systems, applications, and databases, enabling seamless communication and data exchange between them.
+                </p>
               </div>
             </div><!-- End Service Item -->
   
@@ -64,8 +64,8 @@ class Service extends HTMLElement {
               <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
               <div>
                 <h4 class="title"><a href="#" class="stretched-link">React Development</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-                  soluta nobis est eligendi</p>
+                <p class="description">Our React development service specialises in designing and developing custom web applications using React, a popular JavaScript library for building modern, scalable, and responsive user interfaces.
+                </p>
               </div>
             </div><!-- End Service Item -->
   

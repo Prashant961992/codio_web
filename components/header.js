@@ -13,7 +13,7 @@ class Header extends HTMLElement {
     this.innerHTML = `<header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" class="logo d-flex align-items-center">
-            <h1 class="d-flex align-items-center">codio</h1>
+            <h1 class="d-flex align-items-center">CODIO</h1>
           </a>
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>

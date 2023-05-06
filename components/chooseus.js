@@ -23,10 +23,7 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Expertise</h3>
-                    <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem,
-                      dolorum.</h4>
-                    <p>A software development company has a team of experienced developers and designers who have the
-                      technical skills and knowledge to build and maintain complex software systems, including websites.
+                    <p>As a custom software development company we have a team of experienced developers and designers who have the technical skills and knowledge to build and maintain complex software websites & applications.
                     </p>
                   </div>
                 </div><!-- End slide item -->
@@ -34,9 +31,7 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Customization</h3>
-                    <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
-                    <p>A software development company can tailor their services to the specific needs of their clients,
-                      offering customized solutions that meet unique requirements.
+                    <p>We tailor our services to specific needs of our clients, offering customised solutions that meet unique requirements.
                     </p>
                   </div>
                 </div><!-- End slide item -->
@@ -44,9 +39,7 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Efficiency</h3>
-                    <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
-                    <p>Hiring a software development company can save time and resources, as they can complete projects
-                      quickly and efficiently due to their experience and expertise.
+                    <p>As a company we value efficiency that has a well-defined development process, project management techniques, and tools that enable them to deliver projects on time while maintaining quality.
                     </p>
                   </div>
                 </div><!-- End slide item -->
@@ -54,10 +47,7 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Support</h3>
-                    <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
-                      Eum similique neque autem ut.</h4>
-                    <p>A reputable software development company will provide ongoing support and maintenance to ensure
-                      that their clients' websites remain up-to-date and functional.
+                    <p>We provide ongoing support and maintenance to ensure that our clients websites and applications remain up-to-date and functional.
                     </p>
                   </div>
                 </div><!-- End slide item -->
@@ -65,10 +55,7 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Quality</h3>
-                    <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
-                      Eum similique neque autem ut.</h4>
-                    <p> A software development company is committed to delivering high-quality software products that
-                      meet industry standards and exceed customer expectations.
+                    <p>We are committed to deliver high-quality software products that meet industry standards and exceed customer expectations.
                     </p>
                   </div>
                 </div><!-- End slide item -->
@@ -76,24 +63,10 @@ class ChooseUs extends HTMLElement {
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Innovation</h3>
-                    <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
-                      Eum similique neque autem ut.</h4>
-                    <p> A software development company is constantly researching and exploring new technologies and
-                      approaches to software development, which can result in cutting-edge solutions for their clients.
+                    <p>By choosing us, you can be assured that your project will be developed using the latest technology and methodologies, resulting in a cutting-edge solutions that meets your specific business needs.
                     </p>
                   </div>
-                </div><!-- End slide item -->
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Competitive advantage</h3>
-                    <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
-                      Eum similique neque autem ut.</h4>
-                    <p> A well-designed and functional website can give businesses a competitive advantage in today's
-                      digital marketplace, making it a worthwhile investment.
-                    </p>
-                  </div>
-                </div><!-- End slide item -->
+                </div>
 
               </div>
               <div class="swiper-pagination"></div>
