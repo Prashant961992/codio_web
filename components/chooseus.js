@@ -14,7 +14,9 @@ class ChooseUs extends HTMLElement {
 
         <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+          <div class="col-xl-5 img-bg">
+          <img src="assets/img/about-img.png">
+          </div>
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">

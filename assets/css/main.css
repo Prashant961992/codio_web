@@ -1,27 +1,18 @@
-/**
-* Template Name: Nova
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
+  --font-default:"Montserrat", sans-serif;
+/*  --font-primary: "Montserrat", sans-serif;*/
+    --font-primary: 'Kanit', sans-serif;
+  --font-secondary:'Kanit', sans-serif;
+/* font-family: 'Noto Sans', sans-serif;*/
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap');
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
-  --color-secondary: #1b2f45;
+  --color-primary:#FA7439;
+  --color-secondary: #353535;
 }
 
 /* Smooth scroll behavior */
@@ -56,6 +47,10 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
+p{
+  color: #353535;
+  font-size: 16px;
+}
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -69,16 +64,21 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-
+section#services-list {
+    padding-bottom: 0px;
+}
 .section-header h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
+     margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    font-weight: 600;
+    font-size: 44px;
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+    
 }
 
-.section-header h2:after {
+/*.section-header h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -89,7 +89,7 @@ section {
   right: 0;
   bottom: 0;
   margin: auto;
-}
+}*/
 
 .section-header p {
   margin-bottom: 0;
@@ -99,26 +99,28 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 140px 0 60px 0;
-  min-height: 30vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    padding: 150px 0 55px 0;
+    min-height: 60vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .breadcrumbs:before {
-  content: "";
-  background-color: rgba(27, 47, 69, 0.7);
-  position: absolute;
-  inset: 0;
+        content: "";
+    background-color: rgb(22 45 99 / 93%);
+    position: absolute;
+    inset: 0;
 }
 
 .breadcrumbs h2 {
-  font-size: 56px;
-  font-weight: 500;
-  color: #fff;
-  font-family: var(--font-secondary);
+    font-size: 48px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #ffffff;
+        font-family: var(--font-secondary);
 }
 
 .breadcrumbs ol {
@@ -133,8 +135,9 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: rgba(255, 255, 255, 0.8);
+  color:rgb(22 45 99);
   transition: 0.3s;
+  font-family: var(--font-primary);
 }
 
 .breadcrumbs ol a:hover {
@@ -148,7 +151,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fff;
+  color: #162d63;
   content: "/";
 }
 
@@ -233,9 +236,11 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 24px 0;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 24px 0;
+    background: #092d60;
+    border-bottom: 2px solid #ffffff14;
 }
 
 @media (max-width: 1200px) {
@@ -245,13 +250,13 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: #092d60;
   padding: 12px 0;
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+      max-height: 40px;
+    margin-right: 6px;
 }
 
 .header .logo h1 {
@@ -293,8 +298,8 @@ section {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
-    transition: 0.3s;
-  }
+    transition: 0.3s
+    letter-spacing: 0.5px;  }
 
   .navbar a i,
   .navbar a:focus i {
@@ -504,12 +509,13 @@ section {
 
 @media (min-width: 1034px) {
   .hero:after {
-    position: absolute;
+       position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background: rgb(255 255 255 / 91%);
     top: 0;
     bottom: 0;
+    border-radius: 0px 0px 200px 0px;
   }
 }
 
@@ -568,7 +574,7 @@ section {
 }
 
 .hero .btn-get-started:hover {
-  background: rgba(86, 184, 230, 0.8);
+  background: #b05934;
 }
 
 .hero .btn-watch-video {
@@ -614,9 +620,9 @@ section {
   padding-bottom: 0;
 }
 
-.why-us .img-bg {
-  min-height: 500px;
-  background-size: cover;
+.why-us .img-bg img {
+    width: 100%;
+    padding-right: 40px;
 }
 
 .why-us .slides {
@@ -692,31 +698,33 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 36px;
-  font-family: var(--font-secondary);
-  color: var(--color-secondary);
+.content h3 {
+     font-weight: 600;
+    font-size: 44px;
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+     
 }
 
-.about .content p {
-  margin: 30px 0;
-  color: #29486a;
+.content p {
+    margin: 0px 0px 15px 0;
+    color: #353535;
 }
 
-.about .content ul {
+.content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
-  padding: 0 0 15px 26px;
+.content ul li {
+  padding: 0 0 15px 0px;
   position: relative;
   font-size: 15px;
+      list-style-type: disc;
   font-weight: 600;
 }
 
-.about .content ul i {
+.content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -749,7 +757,7 @@ section {
 }
 
 .services-list .service-item .title a:hover {
-  color: #38618e;
+  color: #ef742f;
 }
 
 .services-list .service-item .description {
@@ -1087,7 +1095,7 @@ section {
   margin: 40px 30px;
   box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
   background: #fff;
-  min-height: 320px;
+  
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1229,10 +1237,14 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--color-default);
-  padding-right: 50px;
+     font-size: 18px;
+    font-weight: 600;
+    color: var(--color-default);
+   
+    margin-bottom: 0px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
@@ -1293,16 +1305,24 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(27, 47, 69, 0.1);
+      padding: 30px;
+    box-shadow: 0px 0 30px rgba(27, 47, 69, 0.1);
+    background: #ef742f;
+    border-radius: 10px;
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #d6e2ef;
+     text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-bottom: 1px solid #d6e2ef;
+}
+.portfolio-info ul li {
+    color: #fff;
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1378,7 +1398,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #1c88ba;
+  color:#162d63;
 }
 
 .contact .info-item p {
@@ -1442,6 +1462,22 @@ section {
   box-shadow: none;
   font-size: 14px;
   padding: 12px 15px;
+      display: block;
+    width: 100%;
+  
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10px !important;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #eff4fd;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .contact .php-email-form input:focus,
@@ -1449,16 +1485,18 @@ section {
   border-color: var(--color-primary);
 }
 
+
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1f98d1;
-  border: 0;
-  padding: 12px 40px;
-  color: #fff;
-  transition: 0.4s;
+    background: #ef742f;
+    border: 0;
+    padding: 12px 40px;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -2100,7 +2138,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-primary);
+  background-color: #ef742f;
   color: #fff;
   border-radius: 50px;
 }
@@ -2175,4 +2213,73 @@ section {
   text-align: center;
   font-size: 13px;
   color: var(--color-secondary);
+}
+section#hero h2 {
+    font-size: 36px;
+    color: #353535
+}
+blockquote span {
+      color:#353535;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.copyright span {
+    color: #162d63;
+}
+span.tagline {
+    font-size: 20px;
+    font-weight: 600;
+    --font-secondary: 'Kanit', sans-serif;
+    line-height: 1.3;
+    color: #ef742f;
+}
+.what-we-do {
+    background: #f4946121;
+}
+.services {
+    background-size: contain;
+    padding: 60px 0 40px 0;
+    background-color: #ef742f;
+}
+.services.content h3 {
+    color: #ffffff;
+    
+}
+.services.content li  {
+        color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.services li::marker {
+    color: white;
+}
+.info-item p {
+    font-weight: 700;
+    color: #e47421;
+    letter-spacing: 0.5px;
+}
+.section-header-footer h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 55px;
+    color: #353535;
+} 
+.header-text-info {
+    font-size: 48px !important;
+    color: #ef742f !important;
+    
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.portfolio-description span {
+    color: #d31313;
+}
+.footer-contact a {
+    color: #ef742f;
+    font-weight: 600;
 }

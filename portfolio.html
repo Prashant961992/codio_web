@@ -31,13 +31,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Nova
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
 </head>
@@ -50,16 +43,20 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center"
-      style="background-image: url('assets/img/portfolio-header.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center">
+   <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/top-bg.jpg');">
+      <div class="container position-relative">
+        <!-- <div class="container position-relative d-flex flex-column align-items-center"> -->
 
-        <h2>Portfolio</h2>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Portfolio</li>
-        </ol>
+       <div class="row">
+         <div class="col-md-4">
+            <h2>Our Work</h2>
+       
+         </div>
+          <div class="col-md-8">
+            <h2 class="header-text-info"> Dive into examples of <br>our exemplary work. </h2>
+          </div>
+       </div>
 
       </div>
     </div><!-- End Breadcrumbs -->
@@ -71,65 +68,54 @@
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
           data-portfolio-sort="original-order">
 
-          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-product">Web</li>
-            <li data-filter=".filter-app">Mobile App</li>
-            <!-- <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li> -->
-          </ul><!-- End Portfolio Filters -->
+        
 
           <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+               <a href="case-study.html" title="More Details" class="details-link">
               <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Case study 1</h4>
-                <p>We build a very popular ecommerce platform</p>
-                <a href="assets/img/portfolio/app-1.jpg" title="Case study 1" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="onecart-detail.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+              
+                <h4>Ecommerce platform</h4>
+                
+               
               </div>
+            </a>
             </div>
             <!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <a href="case-study2.html" title="More Details" class="details-link">
               <img src="assets/img/portfolio/revisn.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Case study 2</h4>
-                <p>We build residential property management</p>
-                <a href="assets/img/portfolio/revisn.jpg" title="Case study 2" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="case-study2.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <h4>Property management</h4>
+               
+                
               </div>
+            </a>
             </div>
             <!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+               <a href="case-study3.html" title="More Details" class="details-link">
               <img src="assets/img/portfolio/course.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Case study 3</h4>
-                <p>This Kid app gives carers a much-needed tool</p>
-                <a href="assets/img/portfolio/course.jpg" title="Case study 3" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="case-study3.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <h4>Carer App</h4>
+                
               </div>
+            </a>
             </div>
             <!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <a href="case-study4.html" title="More Details" class="details-link">
               <img src="assets/img/portfolio/education.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Case study 4</h4>
-                <p>we created an interactive school counselling platform</p>
-                <a href="assets/img/portfolio/education.jpg" title="Case study 4" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="case-study4.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <h4>school counselling platform</h4>
+               
               </div>
+            </a>
             </div>
             <!-- End Portfolio Item -->
 
@@ -290,7 +276,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <!-- <footer-component></footer-component> -->
+  <footer-component></footer-component>
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
